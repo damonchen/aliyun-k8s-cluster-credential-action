@@ -1,0 +1,29 @@
+{
+  "name": "aliyun-k8s-cluster-credential-action",
+  "version": "1.0.0",
+  "description": "aliyun-k8s-cluster-credential-action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damonchen/aliyun-k8s-cluster-credential-action.git"
+  },
+  "keywords": [
+    "aliyun",
+    "k8s",
+    "cluster",
+    "credential"
+  ],
+  "author": "damonchen",
+  "license": " Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/damonchen/aliyun-k8s-cluster-credential-action/issues"
+  },
+  "homepage": "https://github.com/damonchen/aliyun-k8s-cluster-credential-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "yaml": "^1.10.0"
+  }
+}

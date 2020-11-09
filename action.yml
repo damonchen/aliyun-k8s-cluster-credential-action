@@ -1,0 +1,27 @@
+name: 'Aliyun Cloud k8s Cluster Credential Action'
+description: 'Retrieve Aliyun Cloud k8s cluster credential and set it to `$HOME/.kube/config`.'
+branding:
+  icon: 'unlock'
+  color: 'blue'
+inputs:
+  cluster_id:
+    description: 'Aliyun Cloud k8s cluster id'
+    required: true
+  cluster_name:
+    description: 'Aliyun Cloud k8s cluster name'
+    required: true
+  cluster_cert_auth_data:
+    description: 'Aliyun Cloud k8s cluster cert auth data'
+    required: true
+  cluster_client_auth_data:
+    description: 'Aliyun Cloud k8s cluster client auth data'
+    required: true
+  cluster_client_key_data:
+    description: 'Aliyun Cloud k8s cluster client key data'
+    required: true
+  cluster_server:
+    description: 'Aliyun Cloud k8s cluster server'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
