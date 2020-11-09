@@ -1,5 +1,5 @@
 name: 'Aliyun Cloud k8s Cluster Credential Action'
-description: 'Retrieve Aliyun Cloud k8s cluster credential and set it to `$HOME/.kube/config`.'
+description: 'Generate Aliyun Cloud k8s cluster credential and set it to `$HOME/.kube/config`.'
 branding:
   icon: 'unlock'
   color: 'blue'
